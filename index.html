@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Moai Staking Pool</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="fonts/themify-icons.css" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">	
+	<meta property="og:image" content="assets/favicon/apple-touch-icon-180x180.png">
+	<!-- animate library -->
+	<link rel="stylesheet" href="libs/animate.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- normalize css -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- flag-icon css -->
+	<link rel="stylesheet" href="css/flag-icon.min.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLX63M4R2X"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-FLX63M4R2X');
+	</script>
+</head>
+<body>
+<!-- main -->
+<div  id="main-container">
+	<div id="main" class="main">
+		<video autoplay loop muted="muted">
+			<source src="video/main.mp4">
+		</video>
+		<!-- main desktop menu -->
+		<div id="menu">
+			<div class="menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-3">
+							<a href="index.html"><img width="130" src="assets/moai-logo.svg" alt="MOAI logo"></a>
+						</div>
+						<div class="col-6 underlineEffect pc-menu">
+							<ul>
+								<li><a href="#benefits">Why MOAI?</a></li>
+								<li><a href="#platform">Our network</a></li>
+								<li><a href="#about">Our philosophy</a></li>
+								<li><a href="#faq">FAQ</a></li>
+							</ul>
+						</div>
+						<div class="col-3 pc-menu">
+							<div class="menu-right text-right underlineEffect">
+								<span class="number"><a class="empty-links" href="#stake">Stake with us</a></span>
+							</div>
+						</div>
+						<div class="col-3 offset-6 mobile-menu">
+							<div class="menu-toogle-wrapper">
+								<div class="menu-toogle menu-toogle-open">
+									<div class="burgx" style="transform: rotate(-180deg);"></div>
+									<div class="burgx2" style="opacity: 1;"></div>
+									<div class="burgx3" style="transform: rotate(180deg);"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end main desktop menu -->
+		<!-- mobile menu -->
+		<div class="mobile-menu-container hidden">
+			<div class="underlineEffect">
+				<ul>
+					<li><a href="#benefits">Why MOAI?</a></li>
+					<li><a href="#platform">Our network</a></li>
+					<li><a href="#about">Our philosophy</a></li>
+					<li><a href="#faq">FAQ</a></li>
+				</ul>
+			</div>
+			<div class="pagination-block white-pagination underlineEffect">
+				<span class="number"><a class="empty-links" href="#stake">Stake with us</a></span>
+			</div>
+		</div>
+		<!-- end mobile menu -->
+
+		<!-- header block -->
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-5">
+						<div class="header-left">					
+							<img class="inline-block py-12 w-64 ml-3 mt-5" src="assets/moai-header.svg" alt="MOAI">
+							<h1>Moai Staking Pool<br/>
+							Ticker: <span class="emphasis">MOAI</span></h1>
+							<h2>
+								Delegate your stake with multiple, decentralized<br/>relays on world class infrastructure.
+							</h2>
+							<!-- social icons and links -->
+							<div class="socials">
+								<a href="https://github.com/moaipool">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.884 18.416">
+										<path id="github_1_" data-name="github (1)" class="cls-icon" d="M9.442.3A9.442,9.442,0,0,0,6.456,18.7c.472.089.645-.2.645-.454,0-.224-.008-.818-.012-1.605-2.626.57-3.18-1.267-3.18-1.267a2.5,2.5,0,0,0-1.05-1.381c-.855-.585.066-.574.066-.574a1.98,1.98,0,0,1,1.446.973,2.012,2.012,0,0,0,2.75.785,2.013,2.013,0,0,1,.6-1.263c-2.1-.236-4.3-1.048-4.3-4.666A3.643,3.643,0,0,1,4.39,6.712a3.357,3.357,0,0,1,.083-2.5s.791-.253,2.6.968a8.9,8.9,0,0,1,4.721,0c1.794-1.221,2.585-.968,2.585-.968a3.45,3.45,0,0,1,.094,2.5,3.658,3.658,0,0,1,.968,2.534c0,3.627-2.207,4.426-4.308,4.658a2.261,2.261,0,0,1,.637,1.747c0,1.264-.012,2.279-.012,2.586,0,.248.165.543.649.448A9.43,9.43,0,0,0,9.442.3" transform="translate(0 -0.297)"/>
+									</svg>
+								</a>
+								<a href="">
+									<svg id="telegram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.877 15.833">
+										<path id="Path_37" data-name="Path 37" class="cls-icon" d="M8.4,17.114c-.562,0-.467-.213-.66-.747L6.086,10.922,18.815,3.37" transform="translate(-1.301 -2.24)"/>
+										<path id="Path_38" data-name="Path 38" class="cls-icon" d="M9.028,19.638A1.114,1.114,0,0,0,9.9,19.2l2.314-2.248L9.323,15.213" transform="translate(-1.928 -4.764)"/>
+										<path id="Path_39" data-name="Path 39" class="cls-icon" d="M7.4,12.382l6.995,5.168c.8.441,1.375.213,1.574-.741L18.817,3.391c.293-1.17-.444-1.7-1.207-1.353L.886,8.487c-1.141.458-1.135,1.1-.208,1.379L4.971,11.2,14.9,4.939c.468-.283.9-.131.546.183" transform="translate(-0.005 -1.934)"/>
+									</svg>
+								</a>
+								<a href="https://twitter.com/moaipool">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.885 15.349">
+										<path id="twitter" class="cls-icon" d="M18.848,4.074a7.869,7.869,0,0,1-2.223.61,3.9,3.9,0,0,0,1.7-2.143,8,8,0,0,1-2.46.932,3.87,3.87,0,0,0-6.7,2.642A3.962,3.962,0,0,0,9.27,7,10.964,10.964,0,0,1,1.29,2.966,3.794,3.794,0,0,0,.766,4.913,3.872,3.872,0,0,0,2.488,8.136,3.859,3.859,0,0,1,.735,7.652V7.7a3.874,3.874,0,0,0,3.1,3.8,3.907,3.907,0,0,1-1.74.067,3.884,3.884,0,0,0,3.623,2.689,7.764,7.764,0,0,1-4.8,1.656A8.217,8.217,0,0,1,0,15.857a11.012,11.012,0,0,0,5.946,1.738,10.935,10.935,0,0,0,11.015-11c0-.164,0-.33-.012-.5a7.818,7.818,0,0,0,1.936-2l-.037-.016Z" transform="translate(0 -2.246)"/>
+									</svg>
+								</a>
+							</div>
+							<!-- end social icons and links -->
+						</div>
+					</div>
+					<div class="col-12 offset-0 col-lg-4 mt-4 offset-lg-1 col-md-8 offset-md-0 col-xl-4 offset-xl-2 col-sm-8">
+						<div class="pool-info">
+							<h2>Stake pool relays</h2>				
+							<hr>
+
+							<div class="pool-data">
+								<div class="data-wrapper">
+									<div class="pool-data-left">
+										<div class="number col-md-6">
+											<span class="flag-icon flag-icon-us"></span>
+										</div>
+										<div class="text">
+											Dallas, US
+										</div>
+									</div>
+									<div class="pool-data-right">
+										<div class="number col-md-3">
+											104.200.16.70:6000
+										</div>
+										<div class="text">
+											Node IP
+										</div>
+									</div>
+								</div>
+
+								<div class="row mt-3"></div>					
+								<div class="data-wrapper">
+									<div class="pool-data-left">
+										<div class="number col-md-6">
+											<span class="flag-icon flag-icon-de"></span></span>
+										</div>
+										<div class="text">
+											Frankfurt, DE
+										</div>
+									</div>
+									<div class="pool-data-right">
+										<div class="number col-md-3">
+											194.195.243.53:6000
+										</div>
+										<div class="text">
+											Node IP
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row mt-3"></div>	
+							<div class="pool-data">
+								<a class="nectar-button jumbo see-through-2 empty-links" href="#stake"><span>Stake with us</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div></div>
+		<div class="icon-wrapper">
+			<div id="icon-container" class="icon-container"></div>
+		</div>	
+	</div>
+	<!-- end header block -->
+	<!-- benefits block -->
+	<div id="benefits" class="benefit">
+		<div class="container">
+
+			<div class="row benefit-row">
+				<div class="col-10 col-md-10 col-xl-5">
+					<h2>Why stake with MOAI?</h2>
+				</div>
+			</div>
+			<div class="panels">
+				<div id="delegators-panel" class="panel active" role="tabpanel" aria-labelledby="delegators-tab">
+					<div class="row">
+						<div class="col-10 col-xl-3 col-md-5 col-lg-4 benefit-space col-sm-6">
+							<div class="benefit-item">
+								<h5>Reliable and green</h5>
+								<div class="benefit-img">
+									<img src="assets/svg/green.svg" alt="">
+								</div>
+							</div>
+							<p>Our staking pool runs on world class infrastructure with 99.99% guaranteed uptime, in datacenters that operate on 100% renewable energy.</p>
+						</div>
+						<div class="col-10 offset-0 col-xl-3 offset-xl-1 col-md-5 offset-md-0 benefit-space col-lg-4 col-sm-6">
+							<div class="benefit-item">
+								<h5>Independent</h5>
+								<div class="benefit-img">
+									<img src="assets/svg/flag.svg" alt="">
+								</div>
+							</div>
+							<p>Not being affiliated with any big exchanges or controlling influence lets us focus on operating our staking pool exclusively for <i>you</i> &#151; our delegators.					
+							</p>
+						</div>
+						<div class="col-10 offset-0 col-xl-3 offset-xl-1 col-md-5 offset-md-0 benefit-space col-lg-4 col-sm-6">
+							<div class="benefit-item">
+								<h5>Run by experts</h5>
+								<div class="benefit-img">
+									<img src="assets/svg/professional.svg" alt="">
+								</div>
+							</div>
+							<p>Managed by IT professionals with decades of experience in enterprise-level Linux, we keep the <span class="emphasis">MOAI</span> staking pool running smoothly 24/7.</p>
+						</div>
+						
+						<div class="col-10 col-xl-3 col-md-5 col-lg-4 col-sm-6 benefit-space">
+							<div class="benefit-item">
+								<h5>Committed</h5>
+								<div class="benefit-img">
+									<img src="assets/svg/wallet-hd.svg" alt="">
+								</div>
+							</div>
+							<p>A dedicated Cardano staking pool with skin in the game, we continually reinvest fees into our pool pledge to help maintain the overall health and security of the Cardano network.</p>
+						</div>
+						<div class="col-10 offset-0 col-xl-3 offset-xl-1 col-md-5 offset-md-0 benefit-space col-lg-4 col-sm-6">
+							<div class="benefit-item">
+								<h5>Low fees</h5>
+								<div class="benefit-img">
+									<img src="assets/svg/fee-model.svg" alt="">
+								</div>
+							</div>
+							<p>A low 2.5% pool profit margin and minimum fixed fee means you keep 97.5% of your reward. With a low saturation level, there’s also greater potential for higher rewards.
+							</p>
+						</div>
+						<div class="col-10 offset-0 col-xl-3 offset-xl-1 col-md-5 offset-md-0 benefit-space col-lg-4 col-sm-6">
+							<div class="benefit-item">
+								<h5>Honest and transparent</h5>
+								<div class="benefit-img">
+									<img src="assets/svg/trusted.svg" alt="">
+								</div>
+							</div>
+							<p>We are an ethical participant in the Cardano network and pledge full disclosure to our delegators. In our bid for transparency we will share all relevant activities openly with the community.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end benefits block -->
+	<!-- network block -->
+	<div id="scroll" class="info-block">
+		<div id="platform"></div>
+		<div class="container">
+			<div class="info-block-left">
+				<div class="row">
+					<div class="col-10">
+						<h3>Our decentralized<br />
+							 relay network
+						</h3>
+						<p class="mb-3">
+							Relays are used to keep the <span class="emphasis">MOAI</span> network healthy and hide the block producing nodes from the rest of the network. Our block producing nodes only communicate with our registered relays, plus one additional relay held in reserve. In this way, the producers are not exposed to other nodes on the network, making them safer and harder to exploit.
+						</p>
+
+						<p>
+							We maintain a minumum of two relays at all times. This enables the necessary redundancy to be able to update one relay node while the other communicates with the block producers. In the unlikely event of a 	relay node failure, the block producers are still able to distribute minted blocks to the rest of the network.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info-block-right">
+			<img src="assets/01.gif" alt="">
+		</div>
+	</div>
+	<!-- end network block -->
+	<!-- about block -->
+	<div id="about"></div>
+	<div class="info-block info-right">
+		<div class="info-block-right small-order">
+			<img src="assets/02.gif" alt="">
+		</div>
+		<div class="container big-order">
+			<div class="info-block-left">
+				<div class="row">
+					<div class="col-10 offset-0 col-md-10 offset-md-0 offset-lg-1 offset-xl-1">
+						<h3>Our philosophy</h3>
+						<p class="mb-3">
+							The MOAI group (Ticker: <span class="emphasis">MOAI</span>) is a stake pool that strives to be as reliable, secure and profitable as possible while also supporting good stewardship of our planet. That is, we donate a percentage of our monthly operating costs to organizations with a proven impact in carbon offsetting projects.
+						</p>
+						<p class="mb-3">
+							In addition, all our servers are located in datacenters that run on 100% renewable energy.
+						</p>
+
+						<p>
+							We believe strongly that Cardano's proof-of-stake design, rather than the energy intensive proof-of-work approach of Bitcoin, represents the future of cryptocurrency &#151; and a better solution for everyone.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end about block -->
+	<!-- sale block -->
+	<div id="stake" class="sale">
+		<div class="img-bg"></div>
+		<div class="container">
+			<div class="row sale-row">
+				<div class="col-10 col-md-10 col-lg-5">
+					<h2>Staking with us</h2>
+				</div>
+				<div class="col-12 offset-0 col-xl-6 offset-xl-1 col-lg-12 offset-lg-0 col-md-12 offset-md-0">
+					<div class="tabs-sale" role="tablist">
+						<h3>Delegation basics</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-0 col-lg-0 col-xl-5 col-md-0">
+					<img class="illustration-img" src="assets/illustration3.svg" alt="graph">
+				</div>
+				<div class="col-12 offset-0 col-xl-6 offset-xl-1 col-lg-12 offset-lg-0 col-md-10 offset-md-0">
+
+					<div id="pre-panel" class="panel-sale active" role="tabpanel" aria-labelledby="pre-tab">
+						<div class="row">
+							<div class="col-10 col-md-10">
+								<p class="mb-3">
+									Delegation means that ADA holders trust their stake to a stake pool. It allows holders that do not run their own pool to participate in the network and receive rewards by taking part in the Oroboros consensus protocol. Rewards are proportional to the amount staked and depend on the pool's stake, the owner's pledge, pool performance and other factors.
+								</p>
+								<p class="mb-3">
+									Staking on the Cardano network and earning rewards has never been easier&#151;whether you use a full node wallet, browser-based extension or mobile app.
+								</p>	
+								<p class="mb-3">
+								Simply open your Daedalus or Yoroi wallet, go to the Delegation Center, search for <span class="emphasis">MOAI</span> and choose “Delegate”.
+								</p>
+								<div class="col-lg-12 offset-4 mt-5">
+									<img width="100" src="assets/svg/rewards.svg" alt="Ada rewards">
+								</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end sale block -->
+	<!-- faq block -->
+	<div id="faq" class="faq">
+		<div class="img-bg"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-10 col-lg-6 col-md-10 col-xl-6">
+					<h2>Frequently<br>Asked Questions</h2>
+				</div>
+				<div class="col-12 col-lg-6 col-md-10 col-xl-6">
+					<div class="tabs-faq" role="tablist">
+						<a href="javascript:;" id="general-tab" class="tab-faq active" role="tab" aria-controls="general-panel">General</a>
+						<a href="javascript:;" id="preico-tab" class="tab-faq" role="tab" aria-controls="preico-panel">Rewards</a>
+						<a href="javascript:;" id="sustainable-tab" class="tab-faq" role="tab" aria-controls="sustainable-panel">Sustainability</a>
+						<a href="javascript:;" id="other-tab" class="tab-faq" role="tab" aria-controls="other-panel">Other</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6 col-md-10 col-xl-6 big-order">
+					
+				</div>
+				<div class="col-12 col-lg-4 col-md-10 col-xl-4 small-order">
+					<div id="general-panel" class="panel-faq active" role="tabpanel" aria-labelledby="general-tab">
+						<h6>Are there any risks to staking?</h6>
+						<p>No. Your funds stay safe in your wallet at all times. You should <i>never</i> send your ADA to anyone when staking &#151; the funds remain in your wallet for the duration of the time they are delegated.	
+						</p>
+						<h6>Can I change to another stakepool?</h6>
+						<p>Yes. You can switch stakepools at any time by choosing a new pool and delegating to it. The delegation will instantly be reflected in your wallet, but will only be recorded at the beginning of the next epoch (<i>n+1</i>).
+						</p>
+						<h6>What is an epoch?</h6>
+						<p>In the Cardano network an epoch is a measurement unit of time. Each epoch consists of a number of slots, where each slot lasts for one second. A Cardano epoch currently includes 432,000 slots, which is equal to five days.</p>
+						<h6>How much can I earn staking?</h6>
+						<p>You can estimate potential earnings with the official Cardano <a href="https://cardano.org/calculator">Staking calculator</a>.</p>
+						<h6>Is there a minimum amout for staking?</h6>
+						<p>There is no minimum. You can delegate even 1 ADA (₳). Bear in mind you will have to pay 2 ADA (₳) for a key deposit when you delegate for the first time. This fee is returned when you undelegate from the pool.</p>
+						<h6>Are my funds safe while they are delegated?</h6>
+						<p>Yes, your funds are safe as your ADA (₳) remains securely in your wallet. You maintain full control while they are staked and can transfer or withdraw them at any time.</p>
+					</div>
+					<div id="preico-panel" class="panel-faq" role="tabpanel" aria-labelledby="preico-tab">
+						<h6>When will I receive awards?</h6>
+						<p>If you delegated for the first time, you will have to wait between 15 and 20 days to receive your first rewards. After this initial period, you have the possibility of receiving rewards at the end of each five day epoch. Remember that rewards are generated by our pool when blocks are signed. This depends on the total amount of active participation and other variables.</p>
+						<h6>How do I get my rewards?</h6>
+						<p>Your staking rewards are paid to your wallet at the end of each epoch (five days) automatically. This is defined by the Cardano protocol and not something we can control. All rewards will be transferred to your real account on Cardano mainnet.</p>
+						<h6>Can I increase my stake after I've delegated?</h6>
+						<p>Yes. If you send more ADA to your wallet, your participation will automatically increase and you will have better potential for earning rewards in the future.</p>
+					</div>
+					<div id="sustainable-panel" class="panel-faq" role="tabpanel" aria-labelledby="sustainable-tab">
+						<h6>How is MOAI pool dedicated to sustainability?</h6>
+						<p>Cardano has earned a reputation as “the most environmentally sustainable” cryptocurrency, thanks to its innovative proof-of-stake blockchain protocol, <a href="https://cardano.org/ouroboros/">Ouroboros</a>. Proof-of-stake solves the greatest challenge faced by existing blockchains: the need for more and more energy to achieve consensus.
+						</p>
+						<p>We've pledged to take this further in two ways: 1) renewable energy, and 2) carbon offsetting.</p>
+						<p>All of our servers are hosted in datacenters that are powered by 100% renewable energy. Specifically, the upstream provider for our U.S.-based datacenter, Digital Reality, incorporates <a href="https://www.digitalrealty.com/about/sustainability/clean-energy">carbon-free and renewable resources</a> supplied by wind, solar, and hydro facilities. Likewise, our German-based datacenter, Eqinix, has covered <a href="https://blog.equinix.com/blog/2020/05/05/how-equinix-is-advancing-sustainability/">100% of their European load</a> with renewable energy. 
+						</p>
+						<p>To further offset our carbon impact, we've selected <a href="https://ecologi.com/">Ecologi</a> for their leading role in climate solutions. A percentage of our fixed costs are automatically donated to Ecologi each month. Ecologi is driven to be transparent about the climate solutions they fund, and publish the certificates for all of the carbon credits (verified tonnes of carbon emissions reduced) that they buy. You can <a href="https://docs.google.com/spreadsheets/d/1dACvzjE5nBE1cKZBAhYzsUa7rIiLJqCWXVgY4bNS8_Q/edit?usp=sharing">track the receipts</a> from their purchases of tree planting services.
+
+						</p>
+					</div>
+					<div id="other-panel" class="panel-faq" role="tabpanel" aria-labelledby="other-tab">
+						<h6>What's the significance of the name MOAI?</h6>
+						<p>The indigenous people of Rapa Nui, or Easter Island, created a thriving and industrious culture, as evidenced by the island's many enormous stone <i><span class="emphasis">moai</span></i>. These statues reveal their creators to be master craftsmen and engineers.</p>
+						<p>However, the middle (1050-1680) and the late periods (post-1680) of the Rapa Nui civilization were characterized by increased land clearing for cultivation. By the time Europeans arrived in 1722, the island was completely deforested and all tree species extinct.</p>
+						<p>Without trees the ecosystem collapsed; without ecosystem functions, food and fresh water quickly diminished and escape boats could not be built. Since escape was impossible, resource infighting and civil war occurred until only a fraction of the population remained.</p>
+						<p>Today, the moai remain as stoic reminders of Rapa Nui's former greatness. The story draws an unsettling parallel to contemporary global ecological destruction. We've chosen the name <span class="emphasis">MOAI</span> as a symbol of engineering prowess, but also for the cautionary tale they represent &#151; and hope for a better future.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- faq block -->
+	<!-- contact block -->
+	<div id="contact" class="pre-footer-wrapper">
+		<div class="container">
+			<div class="row pre-footer">
+				<div class="col-12 col-lg-5 col-md-10 col-xl-4">
+					<img width="130" src="assets/moai-logo.svg" alt="MOAI logo">
+					<h3>A decentralized Cardano staking pool
+					</h3>
+					<div class="socials">
+						<a href="https://twitter.com/moaipool">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.884 18.416">
+								<path data-name="github (1)" class="cls-icon" d="M9.442.3A9.442,9.442,0,0,0,6.456,18.7c.472.089.645-.2.645-.454,0-.224-.008-.818-.012-1.605-2.626.57-3.18-1.267-3.18-1.267a2.5,2.5,0,0,0-1.05-1.381c-.855-.585.066-.574.066-.574a1.98,1.98,0,0,1,1.446.973,2.012,2.012,0,0,0,2.75.785,2.013,2.013,0,0,1,.6-1.263c-2.1-.236-4.3-1.048-4.3-4.666A3.643,3.643,0,0,1,4.39,6.712a3.357,3.357,0,0,1,.083-2.5s.791-.253,2.6.968a8.9,8.9,0,0,1,4.721,0c1.794-1.221,2.585-.968,2.585-.968a3.45,3.45,0,0,1,.094,2.5,3.658,3.658,0,0,1,.968,2.534c0,3.627-2.207,4.426-4.308,4.658a2.261,2.261,0,0,1,.637,1.747c0,1.264-.012,2.279-.012,2.586,0,.248.165.543.649.448A9.43,9.43,0,0,0,9.442.3" transform="translate(0 -0.297)"/>
+							</svg>
+						</a>
+						<a href="">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.877 15.833">
+								<path class="cls-icon" d="M8.4,17.114c-.562,0-.467-.213-.66-.747L6.086,10.922,18.815,3.37" transform="translate(-1.301 -2.24)"/>
+								<path class="cls-icon" d="M9.028,19.638A1.114,1.114,0,0,0,9.9,19.2l2.314-2.248L9.323,15.213" transform="translate(-1.928 -4.764)"/>
+								<path class="cls-icon" d="M7.4,12.382l6.995,5.168c.8.441,1.375.213,1.574-.741L18.817,3.391c.293-1.17-.444-1.7-1.207-1.353L.886,8.487c-1.141.458-1.135,1.1-.208,1.379L4.971,11.2,14.9,4.939c.468-.283.9-.131.546.183" transform="translate(-0.005 -1.934)"/>
+							</svg>
+						</a>
+						<a href="https://github.com/moaipool">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.885 15.349">
+								<path class="cls-icon" d="M18.848,4.074a7.869,7.869,0,0,1-2.223.61,3.9,3.9,0,0,0,1.7-2.143,8,8,0,0,1-2.46.932,3.87,3.87,0,0,0-6.7,2.642A3.962,3.962,0,0,0,9.27,7,10.964,10.964,0,0,1,1.29,2.966,3.794,3.794,0,0,0,.766,4.913,3.872,3.872,0,0,0,2.488,8.136,3.859,3.859,0,0,1,.735,7.652V7.7a3.874,3.874,0,0,0,3.1,3.8,3.907,3.907,0,0,1-1.74.067,3.884,3.884,0,0,0,3.623,2.689,7.764,7.764,0,0,1-4.8,1.656A8.217,8.217,0,0,1,0,15.857a11.012,11.012,0,0,0,5.946,1.738,10.935,10.935,0,0,0,11.015-11c0-.164,0-.33-.012-.5a7.818,7.818,0,0,0,1.936-2l-.037-.016Z" transform="translate(0 -2.246)"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="col-12 offset-0 offset-lg-1 offset-md-0 col-md-5 col-xl-3 offset-xl-2 col-lg-3 col-sm-5">
+					<div class="contact">Contact</div>
+					<a class="email" href="stake@moaipool.com">stake@moaipool.com</a>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row footer-wrapper">
+				<div class="col-12 col-lg-2 col-md-3 col-xl-2 col-sm-3">
+					<div class="copyright">
+						Copyright &copy; 2021
+					</div>
+				</div>
+				<div class="col-12 col-lg-2 col-md-3 col-xl-2 col-sm-3">
+					<div class="author">
+						<span class="emphasis">MOAI</span> Stake Pool
+					</div>
+				</div>
+				<div class="col-12 offset-0 col-lg-4 offset-lg-4 col-md-5 offset-md-1 col-xl-3 offset-xl-5 col-sm-6 right-footer-links">
+					<div class="underlineEffect">
+						<a class="footer left empty-links" href="">Privacy Policy</a>
+						<a class="footer right empty-links" href="">Terms & Conditions</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end contact block -->
+</div>
+<!-- end main container -->
+<!-- jquery -->
+<script src="js/jquery.min.js"></script>
+<!-- main script file -->
+<script src="js/scripts.js"></script>
+<!-- transition plugin -->
+<script src="js/jquery.transit.min.js"></script>
+<!-- Event Handling for forms -->
+<script src="js/mail.js"></script>
+</body>
+</html>
