@@ -1,14 +1,6 @@
 $(function() {
     "use strict";
-    // 1. Preloader
-    var preload = document.getElementById('preloader');
-    window.addEventListener('load', function() {
-        setTimeout(function(){
-            preload.className +=  ' fade';
-            preload.style.display = 'none';
-        },0);
-    });
-
+    
     // 2. Tabs handlers
     $('.tab').on('click', function () {
         $('.tab, .panel').removeClass('active');
@@ -41,35 +33,6 @@ $(function() {
             'seconds': seconds
         };
     }
-
-    function initializeClock(id, endtime) {
-        var clock = document.getElementById(id);
-        var daysSpan = clock.querySelector('.days');
-        var hoursSpan = clock.querySelector('.hours');
-        var minutesSpan = clock.querySelector('.minutes');
-        var secondsSpan = clock.querySelector('.seconds');
-
-        function updateClock() {
-            var t = getTimeRemaining(endtime);
-
-            daysSpan.innerHTML = t.days;
-            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-            if (t.total <= 0) {
-                clearInterval(timeinterval);
-            }
-        }
-
-        updateClock();
-        var timeinterval = setInterval(updateClock, 1000);
-    }
-
-    var deadline;
-    deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
-    initializeClock('clockdiv', deadline);
-    // end timer function
 
     var iconContainer = document.getElementById('icon-container');
     iconContainer.addEventListener("click", scrollDown);
