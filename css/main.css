@@ -20,6 +20,21 @@
   padding: 1rem;
 }
 
+/* === 2. Fonts === */
+@font-face {
+  font-family: "roboto-example";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "roboto-example";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
+
 /* === 3. Bootstrap === */
 
 /*!
@@ -2690,55 +2705,6 @@ strong {
     border-color: rgba(255, 255, 255, 0.4);
     margin: 25px auto 30px auto; }
 
-.timer {
-  text-align: center; }
-  .timer .smalltext {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    color: rgba(255, 255, 255, 0.5);
-    padding-top: 0; }
-  .timer .days, .timer .hours, .timer .minutes, .timer .seconds {
-    font-family: 'Poppins', sans-serif;
-    font-size: 42px;
-    font-weight: 500;
-    color: #fff;
-    margin: 0 2px; }
-  .timer .days {
-    margin: 0 2px 0 0; }
-  .timer .seconds {
-    margin: 0 0 0 2px; }
-  .timer .days-container .smalltext {
-    padding-right: 2px; }
-  .timer .seconds-container .smalltext {
-    padding-left: 2px; }
-
-#clockdiv {
-  font-family: sans-serif;
-  color: #fff;
-  display: inline-block;
-  font-weight: 100;
-  text-align: center;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -webkit-justify-content: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly; }
-
-#clockdiv > div {
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  display: inline-block; }
-
-#clockdiv div > span {
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  display: inline-block; }
-
 .smalltext {
   padding-top: 5px;
   font-size: 16px; }
@@ -4075,16 +4041,6 @@ input::placeholder {
     color: #fff;
     padding: 0;
     margin: 0; }
-
-#main {
-  background: url(../assets/header.png) top center;
-  width: 100%;
-}    
-
-/* #faq {
-background: url(../assets/footer/dots.png) top center;
-  width: 100%;
-} */
 
 /*========== 13. Desktop First  ==========*/
 @media screen and (min-width: 1400px) {
