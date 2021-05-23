@@ -75,35 +75,7 @@ $(function() {
     $window.on('scroll', onScroll);
     // end menu
 
-    // 5. Scroll animation
-    $(window).scroll(function() {
-        $('.distrib h3').each(function () {
-            var imagePos, topOfWindow;
-            imagePos = $(this).offset().top;
-            topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow + $(window).innerHeight()) {
-                $(this).addClass("animated fadeInUp");
-                $('.line-animation').addClass("loaded");
-            }
-        });
-
-        $('.distrib .status-separator').each(function () {
-            var imagePos, topOfWindow;
-            imagePos = $(this).offset().top;
-            topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow + $(window).innerHeight()) {
-                $(this).addClass("animated fadeInUp");
-                $('.distrib .number').addClass("animated fadeInUp");
-                $('.distrib h5').addClass("animated fadeInUp");
-            }
-        });
-    });
-
-    setTimeout(function tick() {
-        $('.header-left').addClass("animated fadeInUp");
-        $('.ico-info').addClass("animated fadeInUp");
-        $('.menu').addClass("animated fadeInDown");
-    }, 1000);
+    
 
 
     // 6. Menu mobile

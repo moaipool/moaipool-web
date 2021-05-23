@@ -2692,8 +2692,8 @@ strong {
   color: #f20127; }
 .pool-info {
   background: #070023;
-  padding: 55px 35px;
-  /*width: 90%; */
+  padding: 75px 25px;
+  border-radius: 10px; 
   margin-left: auto; }
   .pool-info h2 {
     font-size: 20px;
@@ -2730,7 +2730,7 @@ strong {
     font-weight: normal;
     margin: 5px 0 0 0; }
   .pool-data .nectar-button {
-    margin: 30px 0 25px 0;
+    margin: 80px 0 25px 0;
     line-height: 1; }
     .pool-data .nectar-button span {
       font-weight: 500; }
