@@ -2692,7 +2692,7 @@ strong {
   color: #f20127; }
 .pool-info {
   background: #070023;
-  padding: 75px 25px;
+  padding: 75px 25px 35px 25px;
   border-radius: 10px; 
   margin-left: auto; }
   .pool-info h2 {
@@ -2722,7 +2722,7 @@ strong {
   .pool-data .number {
     font-family: "Poppins", sans-serif;
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500; }
   .pool-data .text {
     color: #838091;
