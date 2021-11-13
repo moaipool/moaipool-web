@@ -1,5 +1,5 @@
 # moaipool-web
 Moai Pool website
 
-![moaipool](https://user-images.githubusercontent.com/84546123/119172747-9ab64880-ba66-11eb-9c20-997d239f3290.jpg)
+![moaipool](https://user-images.githubusercontent.com/84546123/141613678-43fcfbbd-34cf-4b65-9bf9-bb36f836421c.jpg)
 
