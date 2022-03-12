@@ -5,11 +5,12 @@
     "location": "United States",
     "social": {
       "twitter_handle": "moaipool",
-      "github_handle": "moaipool"
+      "github_handle": "moaipool",
+      "discord_handle": "gac52jvFpW"
     },
     "about": {
       "me": "Lovers of Linux and all things crypto.",
-      "server": "A reliable & green Cardano staking pool operating on 100% renewable energy. We plant trees too! 🌱🌴 Proud single pool operator.",
+      "server": "A green Cardano stake pool operating on 100% renewable energy ⚡️ Monthly donations to carbon capture projects 🌱🌴",
       "company": "MOAI Group"
     }
   },
