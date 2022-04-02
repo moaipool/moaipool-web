@@ -2702,8 +2702,10 @@ strong {
 .pool-info {
   background: #070023;
   padding: 75px 25px 35px 25px;
-  border-radius: 10px; 
-  margin-left: auto; }
+  border-radius: 20px; 
+  width: 350px;
+  margin-left: auto;
+ }
   .pool-info h2 {
     font-size: 20px;
     font-weight: 500;
